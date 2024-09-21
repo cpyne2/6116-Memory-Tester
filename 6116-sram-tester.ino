@@ -1,12 +1,13 @@
 // SPDX-License-Identifier: MIT
 
 /*
- * Universal Static RAM Tester - Tests SRAM by writing and reading patterns
+ * 6116 Static RAM Tester - Tests SRAM by writing and reading patterns
  * 
- * Derived from the 2114 SRAM tester by Carsten Skjerk
+ * Derived from the SRAM tester projects by Carsten Skjerk and Dennis Marttinen 
  * https://github.com/skjerk/Arduino-2114-SRAM-tester
- * 
- * (c) Dennis Marttinen 2022
+ * https://github.com/twelho/sram-tester
+
+ 
  * Licensed under the MIT license
  */
 
@@ -26,22 +27,8 @@ struct WritePin {
 */
 
 //ccp
-/*
-#define LED_PIN 9
-#define LED_PIN 8
-#define LED_PIN 7
-#define LED_PIN 6
-#define LED_PIN 5
-#define LED_PIN 4
-#define LED_PIN 3
-#define LED_PIN 2
-*/
 #define BTN_PIN_STOP 1
 #define BTN_PIN 0
-
-
-
-
 //ccp
 
 // Address Pins
